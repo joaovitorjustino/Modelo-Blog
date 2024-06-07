@@ -1,3 +1,3 @@
-import { SobreMin } from "./SobreMin";
+import { SobreMim } from "./SobreMim";
 
-export default SobreMin
+export default SobreMim

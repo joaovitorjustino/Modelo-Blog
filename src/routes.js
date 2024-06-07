@@ -1,18 +1,20 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Inicio from "./componentes/inicio";
-import SobreMin from "./componentes/sobremim";
+import SobreMim from "./componentes/sobremim";
+import Menu from "./componentes/menu";
 
 
-function App() {
+function AppRoutes() {
   return (
     <BrowserRouter>
+      <Menu />
       <Routes>
         <Route path="/" element={<Inicio />} />
-        <Route path="/sobremim" element={<SobreMin />} />
+        <Route path="/sobremim" element={<SobreMim />} />
         <Route path="*" element={<div>404</div>} />
       </Routes>
     </BrowserRouter>
   );
 }
 
-export default App;
+export default AppRoutes;

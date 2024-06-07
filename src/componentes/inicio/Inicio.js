@@ -1,7 +1,12 @@
+import Banner from '../banner'
 import './Inicio.css'
 
 export const Inicio = () =>{
     return(
-        <h1>INICIO</h1>
+        <main>
+            <Banner />
+            <h1>INICIO</h1>
+        </main>
+
     )
 }
