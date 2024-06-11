@@ -1,3 +1,3 @@
-import { MenuLink } from "./MenuLink";
+import { MenuLink } from "./MenuLink.js";
 
 export default MenuLink
