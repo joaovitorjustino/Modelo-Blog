@@ -1,3 +1,3 @@
-import { Post } from "./Post.js";
+import { Post } from "./Post";
 
 export default Post
