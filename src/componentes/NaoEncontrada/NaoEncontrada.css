@@ -15,13 +15,14 @@
     margin-bottom: 2rem;
 }
 
-.titulo {
+.titulo2 {
+    color: var(--branco);
     font-family: var(--fonte-secundaria);
     font-size: 3rem;
     margin-bottom: 2rem;
 }
 
-.paragrafo {
+.paragrafo1 {
     font-size: 1.5rem;
     line-height: 1.75rem;
 }
